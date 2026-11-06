@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Minhas Assinaturas",
+    "slug": "updatebank",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "minhas-assinaturas",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rockett.assinaturas"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sqlite"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9e42c77f-4bdb-466e-90b1-c4e9a58c292a"
+      }
+    }
+  }
+}
